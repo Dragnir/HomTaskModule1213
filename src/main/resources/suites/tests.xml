@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="YandexMailNew" parallel="classes" thread-count="10">
+
+    <test verbose="1" name="YandexMailNew">
+        <classes>
+            <class name="ta.module12logging.tests.YandexMailNew"/>
+        </classes>
+    </test>
+</suite>
